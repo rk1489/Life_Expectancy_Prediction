@@ -100,7 +100,7 @@ def main():
     Total_expenditure = st.text_input("Total Expenditure ('GDP % on health sector')")
     Diphtheria = st.text_input("Diphtheria ('Deaths per month')")
     HIV_AIDS = st.text_input("HIV/AIDS ('Deaths per month')")
-    GDP = st.text_input("GDP ( in billion USD )")
+    GDP = st.text_input("GDP (in billion USD)")
     Population = st.text_input("Population (in exact figures for e.g. 33736494)")
     thin_19 = st.text_input("Thinness 1-19 Years ('%age thin out of total 1-19 years')")
     thin_9 = st.text_input("Thinness 5-9 Years ('%age thin out of total 5-9 years')")
