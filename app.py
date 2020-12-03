@@ -86,26 +86,26 @@ def main():
     
     Year = st.text_input("Year")
 
-    Adult_Mortality = st.text_input("Adult Mortality") 
+    Adult_Mortality = st.text_input("Adult Mortality Rate ('Deaths per 1000 b/w 15-60 years')") 
      
-    infant_deaths = st.text_input("Infant Deaths")
-    Alcohol = st.text_input("Alcohol Consumption")
-    percentage_expenditure = st.text_input("Percentage Expenditure")
-    Hepatitis_B = st.text_input("Hepatitis B")
-    Measles = st.text_input("Measles")
-    BMI = st.text_input("Body Mass Index (BMI)")
+    infant_deaths = st.text_input("Infant Death Rate ('Infant deaths per 1000 live births')")
+    Alcohol = st.text_input("Alcohol Consumption (in litres/person)")
+    percentage_expenditure = st.text_input("Percentage Expenditure (in USD/person on living)")
+    Hepatitis_B = st.text_input("Hepatitis B ('Deaths per month')")
+    Measles = st.text_input("Measles ('Deaths per month')")
+    BMI = st.text_input("Body Mass Index - BMI (in kg/sq.m)")
 
-    under_five_deaths = st.text_input("Under-Five Deaths")
-    Polio = st.text_input("Polio")
-    Total_expenditure = st.text_input("Total Expenditure")
-    Diphtheria = st.text_input("Diphtheria")
-    HIV_AIDS = st.text_input("HIV/AIDS")
+    under_five_deaths = st.text_input("Under-Five Deaths ('Deaths per 1000')")
+    Polio = st.text_input("Polio ('Deaths per month')")
+    Total_expenditure = st.text_input("Total Expenditure ('GDP % on health sector')")
+    Diphtheria = st.text_input("Diphtheria ('Deaths per month')")
+    HIV_AIDS = st.text_input("HIV/AIDS ('Deaths per month')")
     GDP = st.text_input("GDP ( in billion USD )")
-    Population = st.text_input("Population")
-    thin_19 = st.text_input("Thinness 1-19 Years")
-    thin_9 = st.text_input("Thinness 5-9 Years")
-    Income_composition = st.text_input("Income Composition of Resources")
-    Schooling = st.text_input("Schooling")
+    Population = st.text_input("Population (in exact figures for e.g. 33736494)")
+    thin_19 = st.text_input("Thinness 1-19 Years ('%age thin out of total 1-19 years')")
+    thin_9 = st.text_input("Thinness 5-9 Years ('%age thin out of total 5-9 years')")
+    Income_composition = st.text_input("Income Composition of Resources (on scale of 1)")
+    Schooling = st.text_input("Schooling (on scale of 100)")
 
     if st.button("Predict"):
         
